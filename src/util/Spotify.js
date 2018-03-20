@@ -1,6 +1,7 @@
 let accessToken='';
 const clientID='e6eb4a40bad540e3acdaf6fa6619aa03';
-const redirectUri = 'http://localhost:3000/';
+// const redirectUri = 'http://SpotPlayGen.surge.sh';
+const redirectUri = 'http://localhost:3000';
 const Spotify={
   getAccessToken(){
     if(accessToken)
